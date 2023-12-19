@@ -12,7 +12,7 @@ namespace Estrutura_IF
         {
             int idade = 19;
 
-            if (idade > 18)
+            if (idade > 18 && idade < 10)
             {
                 Console.WriteLine("Maior de idade");
             } else { 
