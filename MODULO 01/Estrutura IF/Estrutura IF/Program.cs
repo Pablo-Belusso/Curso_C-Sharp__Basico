@@ -10,6 +10,8 @@ namespace Estrutura_IF
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Entre com a sua idade:");
+
             int idade = 19;
 
             if (idade > 18 && idade < 10)
