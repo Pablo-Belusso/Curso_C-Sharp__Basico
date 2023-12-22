@@ -16,12 +16,12 @@ namespace Estrutura_IF
 
             if (idade >= 18)
             {
-                Console.WriteLine("Maior de idade");
-
                 if (idade >= 60)
                 {
                     Console.WriteLine("Você é idoso");
                 }
+
+                Console.WriteLine("E Maior de idade");
 
             } else { 
                 Console.WriteLine("Menor de idade"); 
