@@ -14,9 +14,15 @@ namespace Estrutura_IF
 
             int idade = Convert.ToInt16(Console.ReadLine());
 
-            if (idade > 18 && idade < 64)
+            if (idade >= 18)
             {
                 Console.WriteLine("Maior de idade");
+
+                if (idade >= 60)
+                {
+                    Console.WriteLine("Você é idoso");
+                }
+
             } else { 
                 Console.WriteLine("Menor de idade"); 
             }
