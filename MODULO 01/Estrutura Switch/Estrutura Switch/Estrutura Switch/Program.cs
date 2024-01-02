@@ -10,6 +10,12 @@ namespace Estrutura_Switch
     {
         static void Main(string[] args)
         {
+            String dia;
+
+            Console.WriteLine("Entre com um dia da semana");
+            dia = Console.ReadLine();
+
+            Console.ReadKey();
         }
     }
 }
