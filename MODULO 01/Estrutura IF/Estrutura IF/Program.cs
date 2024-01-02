@@ -10,7 +10,7 @@ namespace Estrutura_IF
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("Entre com a sua idade:");
 
             int idade = Convert.ToInt16(Console.ReadLine());
@@ -29,7 +29,7 @@ namespace Estrutura_IF
             }
             Console.ReadKey();
 
-            */
+            
         }
     }
 }
