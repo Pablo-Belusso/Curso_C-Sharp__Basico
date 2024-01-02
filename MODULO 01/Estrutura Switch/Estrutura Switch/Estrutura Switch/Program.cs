@@ -15,6 +15,13 @@ namespace Estrutura_Switch
             Console.WriteLine("Entre com um dia da semana");
             dia = Console.ReadLine();
 
+            switch(dia) // SWITCH = Escolha:
+            {
+                case "Domingo":
+                    Console.WriteLine("Primeiro dia da semana");
+                    break;
+            }
+
             Console.ReadKey();
         }
     }
