@@ -46,7 +46,7 @@ namespace Estrutura_Switch
                     break;
 
                 default: Console.WriteLine("Dia incorreto. Digite Novamente.")
-
+                    break;
             }
 
             Console.ReadKey();
