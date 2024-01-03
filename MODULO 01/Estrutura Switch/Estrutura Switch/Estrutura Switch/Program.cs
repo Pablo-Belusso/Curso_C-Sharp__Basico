@@ -20,6 +20,27 @@ namespace Estrutura_Switch
                 case "Domingo":
                     Console.WriteLine("Primeiro dia da semana");
                     break;
+
+                case "Domingo":
+                    Console.WriteLine("Primeiro dia da semana");
+                    break;
+
+                case "Domingo":
+                    Console.WriteLine("Primeiro dia da semana");
+                    break;
+
+                case "Domingo":
+                    Console.WriteLine("Primeiro dia da semana");
+                    break;
+
+                case "Domingo":
+                    Console.WriteLine("Primeiro dia da semana");
+                    break;
+
+                case "Domingo":
+                    Console.WriteLine("Primeiro dia da semana");
+                    break;
+
             }
 
             Console.ReadKey();
