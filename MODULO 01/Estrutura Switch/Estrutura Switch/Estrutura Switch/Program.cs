@@ -45,7 +45,7 @@ namespace Estrutura_Switch
                     Console.WriteLine("Último dia da semana");
                     break;
 
-                default: Console.WriteLine("Dia incorreto. Digite Novamente.")
+                default: Console.WriteLine("Dia incorreto. Digite Novamente.");
                     break;
             }
 
