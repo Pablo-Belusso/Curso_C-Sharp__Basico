@@ -21,24 +21,28 @@ namespace Estrutura_Switch
                     Console.WriteLine("Primeiro dia da semana");
                     break;
 
-                case "Domingo":
-                    Console.WriteLine("Primeiro dia da semana");
+                case "Segunda":
+                    Console.WriteLine("Segundo dia da semana");
                     break;
 
-                case "Domingo":
-                    Console.WriteLine("Primeiro dia da semana");
+                case "Terça":
+                    Console.WriteLine("Terceiro dia da semana");
                     break;
 
-                case "Domingo":
-                    Console.WriteLine("Primeiro dia da semana");
+                case "Quarta":
+                    Console.WriteLine("Quarto dia da semana");
                     break;
 
-                case "Domingo":
-                    Console.WriteLine("Primeiro dia da semana");
+                case "Quinta":
+                    Console.WriteLine("Quinto dia da semana");
                     break;
 
-                case "Domingo":
-                    Console.WriteLine("Primeiro dia da semana");
+                case "Sexta":
+                    Console.WriteLine("Sexto dia da semana");
+                    break;
+
+                case "Sabado":
+                    Console.WriteLine("Último dia da semana");
                     break;
 
             }
