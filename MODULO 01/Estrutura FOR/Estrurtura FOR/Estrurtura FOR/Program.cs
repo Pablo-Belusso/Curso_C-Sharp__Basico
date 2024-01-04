@@ -12,7 +12,7 @@ namespace Estrurtura_FOR
         {
             for (int contador = 1; contador < 10; contador++)
             {
-                Console.WriteLine("Olá");
+                Console.WriteLine("Contador: "+contador);
             }
             Console.ReadKey();
         }
