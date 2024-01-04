@@ -10,10 +10,17 @@ namespace Estrurtura_FOR
     {
         static void Main(string[] args)
         {
-            for (int contador = 1; contador < 10; contador++)
+            for (int contador = 1; contador < 5; contador++)
             {
                 Console.WriteLine("Contador: "+contador);
             }
+            Console.WriteLine("\n Contador de 2 em 2 = \n ");
+            for (int contador = 1; contador <= 5; contador+=2)
+            {
+                
+                Console.WriteLine("Contador: " + contador);
+            }
+
             Console.ReadKey();
         }
     }
