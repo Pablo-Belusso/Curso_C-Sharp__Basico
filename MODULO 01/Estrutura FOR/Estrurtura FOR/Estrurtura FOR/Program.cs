@@ -14,10 +14,20 @@ namespace Estrurtura_FOR
             {
                 Console.WriteLine("Contador: "+contador);
             }
+
             Console.WriteLine("\n Contador de 2 em 2 = \n ");
+
             for (int contador = 1; contador <= 5; contador+=2)
             {
                 
+                Console.WriteLine("Contador: " + contador);
+            }
+
+            Console.WriteLine("\n Contador decremento = \n ");
+
+            for (int contador = 10; contador >= 1; contador--)
+            {
+
                 Console.WriteLine("Contador: " + contador);
             }
 
