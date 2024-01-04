@@ -14,6 +14,7 @@ namespace Estrurtura_FOR
             {
                 Console.WriteLine("Olá");
             }
+            Console.ReadKey();
         }
     }
 }
