@@ -33,7 +33,7 @@ namespace Estrurtura_FOR
             }
             */
 
-            // TABUADA contruída em FOR:
+            // TABUADA construída em FOR:
 
             for (int x = 0; x < 10; x++)
             {
