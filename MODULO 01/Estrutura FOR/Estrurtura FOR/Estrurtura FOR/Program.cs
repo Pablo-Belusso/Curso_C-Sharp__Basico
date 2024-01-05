@@ -35,12 +35,15 @@ namespace Estrurtura_FOR
 
             // TABUADA construída em FOR:
 
+            Console.WriteLine(" TABUADA DE MULTIPLICAÇÃO");
+
             for (int x = 0; x < 10; x++)
             {
                 for (int y = 0; y < 10; y++) {
                     Console.WriteLine(x + " * " + y + " = " + x * y);
                 }
-                    
+
+                Console.WriteLine("Multiplicado por " + x);
             }
 
             Console.ReadKey();
