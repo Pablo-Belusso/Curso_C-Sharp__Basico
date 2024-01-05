@@ -39,11 +39,12 @@ namespace Estrurtura_FOR
 
             for (int x = 0; x < 10; x++)
             {
+                Console.WriteLine("\n Multiplicado por " + x + "\n");
+
                 for (int y = 0; y < 10; y++) {
                     Console.WriteLine(x + " * " + y + " = " + x * y);
                 }
-
-                Console.WriteLine("Multiplicado por " + x);
+    
             }
 
             Console.ReadKey();
