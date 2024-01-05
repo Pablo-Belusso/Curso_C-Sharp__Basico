@@ -10,6 +10,7 @@ namespace Estrurtura_FOR
     {
         static void Main(string[] args)
         {
+            /*
             for (int contador = 1; contador < 5; contador++)
             {
                 Console.WriteLine("Contador: "+contador);
@@ -29,6 +30,17 @@ namespace Estrurtura_FOR
             {
 
                 Console.WriteLine("Contador: " + contador);
+            }
+            */
+
+            // TABUADA contruída em FOR:
+
+            for (int x = 0; x < 10; x++)
+            {
+                for (int y = 0; y < 10; y++) {
+                    Console.WriteLine(x + " * " + y + " = " + x * y);
+                }
+                    
             }
 
             Console.ReadKey();
