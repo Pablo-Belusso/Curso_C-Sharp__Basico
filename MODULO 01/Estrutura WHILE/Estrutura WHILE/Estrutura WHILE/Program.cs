@@ -10,6 +10,13 @@ namespace Estrutura_WHILE
     {
         static void Main(string[] args)
         {
+            int c = 0;
+            while (c < 10)
+            {
+                Console.WriteLine("Valor do contador: " + c);
+                c++;
+            }
+            Console.ReadLine();
         }
     }
 }
