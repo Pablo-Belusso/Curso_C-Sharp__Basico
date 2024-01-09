@@ -10,9 +10,10 @@ namespace MATRIZES
     {
         static void Main(string[] args)
         {
-            string[] nome = new string[10]; 
+            string[] nome = new string[10];
+            nome[0] = "Pablo";
 
-            Console.WriteLine(nome);
+            Console.WriteLine(nome[0]);
             Console.ReadKey();
         }
         
