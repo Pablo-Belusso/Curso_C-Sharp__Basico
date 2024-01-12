@@ -16,7 +16,12 @@ namespace MATRIZES
             nome[2] = "Marcia";
             nome[2] = "Tânia";
 
-            Console.WriteLine(nome[1]);
+            for (int elementoMatriz = 0; elementoMatriz < nome.Length; elementoMatriz++)
+            {
+                Console.WriteLine(nome[elementoMatriz]);
+            }
+
+            
             Console.ReadKey();
         }
         
