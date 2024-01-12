@@ -13,6 +13,7 @@ namespace MATRIZES
             string[] nome = new string[10];
             nome[0] = "Pablo";
             nome[1] = "Maria";
+            nome[2] = "Marcia";
 
             Console.WriteLine(nome[1]);
             Console.ReadKey();
