@@ -11,6 +11,7 @@ namespace Entrada_e_Saida
     {
         static void Main(string[] args)
         {
+            // Criando um arquivo:
             TextWriter texto = new StreamWriter("Arquivo.txt");
         }
     }
