@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Entrada_e_Saida
 {
@@ -10,6 +11,7 @@ namespace Entrada_e_Saida
     {
         static void Main(string[] args)
         {
+            TextWriter texto = new StreamWriter("Arquivo.txt");
         }
     }
 }
