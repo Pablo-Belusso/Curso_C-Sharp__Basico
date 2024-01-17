@@ -13,7 +13,8 @@ namespace Entrada_e_Saida
         {
             // Criando um arquivo:
             TextWriter texto = new StreamWriter("Arquivo.txt");
-            texto.Writeline("E aeeeee!");
+            texto.WriteLine("E aeeeee!");
+            texto.Close(); 
         }
     }
 }
