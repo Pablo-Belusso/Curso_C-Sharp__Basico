@@ -14,6 +14,7 @@ namespace Entrada_e_Saida
             // Criando um arquivo:
             TextWriter texto = new StreamWriter("Arquivo.txt");
             texto.WriteLine("E aeeeee!");
+            texto.WriteLine(39);
             texto.Close(); 
 
             Console.ReadLine();
