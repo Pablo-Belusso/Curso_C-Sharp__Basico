@@ -15,6 +15,8 @@ namespace Entrada_e_Saida
             TextWriter texto = new StreamWriter("Arquivo.txt");
             texto.WriteLine("E aeeeee!");
             texto.Close(); 
+
+            Console.ReadLine();
         }
     }
 }
