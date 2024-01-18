@@ -19,6 +19,7 @@ namespace Entrada_e_Saida
 
             TextReader textoReader = new StreamReader("Arquivo.txt");
             Console.WriteLine(textoReader.ReadLine());
+            textoReader.Close();
 
             Console.ReadLine();
         }
