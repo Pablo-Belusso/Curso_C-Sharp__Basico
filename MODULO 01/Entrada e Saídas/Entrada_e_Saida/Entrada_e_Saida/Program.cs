@@ -17,6 +17,9 @@ namespace Entrada_e_Saida
             texto.WriteLine(39);
             texto.Close(); 
 
+            TextReader textoReader = new StreamReader("Arquivo.txt");
+            Console.WriteLine(textoReader.ReadLine());
+
             Console.ReadLine();
         }
     }
