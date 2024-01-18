@@ -12,10 +12,12 @@ namespace Entrada_e_Saida
         static void Main(string[] args)
         {
             // Criando um arquivo:
+            /*
             TextWriter texto = new StreamWriter("Arquivo.txt");
             texto.WriteLine("E aeeeee!");
             texto.WriteLine(39);
             texto.Close(); 
+            */
 
             TextReader textoReader = new StreamReader("Arquivo.txt");
             Console.WriteLine(textoReader.ReadLine());
