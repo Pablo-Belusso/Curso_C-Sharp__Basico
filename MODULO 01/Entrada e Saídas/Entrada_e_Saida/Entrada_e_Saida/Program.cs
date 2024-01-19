@@ -14,10 +14,12 @@ namespace Entrada_e_Saida
             // Criando um arquivo:
             /*
             TextWriter texto = new StreamWriter("Arquivo.txt");
-            texto.WriteLine("E aeeeee!");
+            texto.WriteLine("E aeeeee Pablo Belusso!");
             texto.WriteLine(39);
             texto.Close(); 
             */
+
+            StreamWriter texto = File.AppendText("Arquivo.txt");
 
             TextReader textoReader = new StreamReader("Arquivo.txt");
             Console.WriteLine(textoReader.ReadLine());
