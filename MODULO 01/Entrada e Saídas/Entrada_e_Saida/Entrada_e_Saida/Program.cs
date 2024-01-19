@@ -21,6 +21,7 @@ namespace Entrada_e_Saida
 
             StreamWriter texto = File.AppendText("Arquivo.txt");
             texto.WriteLine("Olá mini mundo!");
+            texto.Close();
 
             TextReader textoReader = new StreamReader("Arquivo.txt");
             Console.WriteLine(textoReader.ReadLine());
