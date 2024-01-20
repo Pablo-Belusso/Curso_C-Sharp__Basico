@@ -21,6 +21,9 @@ namespace Entrada_e_Saida
 
             Console.WriteLine("Informe o seu nome: ");
             String nome = Console.ReadLine();
+            
+            Console.WriteLine("Informe o seu telefone: ");
+            String telefone = Console.ReadLine();
 
             StreamWriter texto = File.AppendText("Arquivo.txt");
             texto.WriteLine("Olá mini mundo!");
