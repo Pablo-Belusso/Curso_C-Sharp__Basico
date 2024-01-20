@@ -19,6 +19,8 @@ namespace Entrada_e_Saida
             texto.Close(); 
             */
 
+            Console.WriteLine("Informe o seu nome: ");
+
             StreamWriter texto = File.AppendText("Arquivo.txt");
             texto.WriteLine("Olá mini mundo!");
             texto.Close();
