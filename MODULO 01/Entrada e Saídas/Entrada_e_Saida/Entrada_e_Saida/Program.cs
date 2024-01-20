@@ -17,6 +17,12 @@ namespace Entrada_e_Saida
             texto.WriteLine("E aeeeee Pablo Belusso!");
             texto.WriteLine(39);
             texto.Close(); 
+
+
+            TextReader textoReader = new StreamReader("Arquivo.txt");
+            Console.WriteLine(nome + ", " + telefone);
+            textoReader.Close();
+            Console.WriteLine("Registro Concluído!");
             */
 
             Console.WriteLine("Informe o seu nome: ");
@@ -26,12 +32,12 @@ namespace Entrada_e_Saida
             String telefone = Console.ReadLine();
 
             StreamWriter texto = File.AppendText("Arquivo.txt");
-            texto.WriteLine("Olá mini mundo!");
+            texto.WriteLine(nome +", "+ telefone);
             texto.Close();
+            Console.WriteLine("Registro Concluído!");
 
-            TextReader textoReader = new StreamReader("Arquivo.txt");
-            Console.WriteLine(nome +", "+ telefone);
-            textoReader.Close();
+
+            
 
             Console.ReadLine();
         }
