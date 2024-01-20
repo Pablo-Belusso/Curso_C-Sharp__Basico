@@ -31,7 +31,7 @@ namespace Entrada_e_Saida
             Console.WriteLine("Informe o seu telefone: ");
             String telefone = Console.ReadLine();
 
-            StreamWriter texto = File.AppendText("Arquivo.txt");
+            StreamWriter texto = File.AppendText("Arquivo.csv");
             texto.WriteLine(nome +", "+ telefone);
             texto.Close();
             Console.WriteLine("Registro Concluído!");
