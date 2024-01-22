@@ -10,6 +10,8 @@ namespace Funcoes
     {
         static void Main(string[] args)
         {
+            metodo();
+            Console.ReadLine();
         }
 
         static void metodo()
