@@ -16,7 +16,7 @@ namespace Funcoes
 
         static void metodo()
         {
-            Console.WriteLine("Inicio do metodo");
+            Console.WriteLine("Olá Pablo");
             Console.WriteLine("Deu certo o Rolê.");
         }
     }
