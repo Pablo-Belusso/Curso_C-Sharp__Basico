@@ -12,13 +12,17 @@ namespace Funcoes
         {
             Console.WriteLine("Entre com o seu nome: ");
             String nome = Console.ReadLine();
-            metodo(nome);
+
+            Console.WriteLine("Entre com a sua idade: ");
+            String idade = Console.ReadLine();
+
+            metodo(nome, idade);
             Console.ReadLine();
         }
 
-        static void metodo(String nome)
+        static void metodo(String nome, String idade)
         {
-            Console.WriteLine("Olá "+ nome +", qual é a boa? Feliz por te ver.");
+            Console.WriteLine("Olá "+ nome +", sua idade é: "+ idade +" anos.");
             
         }
     }
