@@ -14,7 +14,7 @@ namespace Funcoes
             Console.ReadLine();
         }
 
-        static void metodo()
+        static void metodo(String nome)
         {
             Console.WriteLine("Olá "+ nome +", qual é a boa? Feliz por te ver.");
             Console.WriteLine("Deu certo o Rolê.");
