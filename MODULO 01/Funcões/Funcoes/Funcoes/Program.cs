@@ -10,14 +10,16 @@ namespace Funcoes
     {
         static void Main(string[] args)
         {
-            metodo();
+            Console.WriteLine("Entre com o seu nome: ");
+            String nome = Console.ReadLine();
+            metodo(nome);
             Console.ReadLine();
         }
 
         static void metodo(String nome)
         {
             Console.WriteLine("Olá "+ nome +", qual é a boa? Feliz por te ver.");
-            Console.WriteLine("Deu certo o Rolê.");
+            
         }
     }
 }
