@@ -17,5 +17,10 @@ namespace Classes
     {
         public String cor;
         public String roda;
+
+        public void motor()
+        {
+            Console.WriteLine("1500 CV");
+        }
     }
 }
