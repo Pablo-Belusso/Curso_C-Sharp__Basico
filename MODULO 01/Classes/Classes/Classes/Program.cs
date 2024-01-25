@@ -15,6 +15,7 @@ namespace Classes
 
     class carro
     {
-
+        public String cor;
+        public String roda;
     }
 }
