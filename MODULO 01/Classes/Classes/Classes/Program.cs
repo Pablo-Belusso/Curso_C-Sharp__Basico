@@ -22,5 +22,10 @@ namespace Classes
         {
             Console.WriteLine("1500 CV");
         }
+
+        public void dormir()
+        {
+            Console.WriteLine("Zzzzz ");
+        }
     }
 }
