@@ -12,4 +12,9 @@ namespace Classes
         {
         }
     }
+
+    class carro
+    {
+
+    }
 }
