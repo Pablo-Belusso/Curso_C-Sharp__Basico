@@ -10,6 +10,11 @@ namespace Classes
     {
         static void Main(string[] args)
         {
+            carro carro = new carro();
+            carro.cor = "branco";
+            carro.roda = "preta";
+
+            Console.ReadLine();
         }
     }
 
