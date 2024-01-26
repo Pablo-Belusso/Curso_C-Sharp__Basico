@@ -14,6 +14,7 @@ namespace Classes
             carro.cor = "branco";
             carro.roda = "preta";
 
+            Console.WriteLine("Meu carro é "+carro.cor+" e tem roda de cor "+carro.roda);
             Console.ReadLine();
         }
     }
