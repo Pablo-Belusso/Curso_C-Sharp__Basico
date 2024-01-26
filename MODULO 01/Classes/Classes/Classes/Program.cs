@@ -17,6 +17,14 @@ namespace Classes
             Console.WriteLine("Meu carro é "+carro.cor+" e tem roda de cor "+carro.roda);
 
             carro.dormir();
+
+            carro caminhao = new carro();
+            caminhao.cor = "vermelho";
+            caminhao.roda = "prateada";
+
+            Console.WriteLine("Meu caminhão é " + caminhao.cor + " e tem roda de cor " + caminhao.roda);
+
+
             Console.ReadLine();
         }
     }
