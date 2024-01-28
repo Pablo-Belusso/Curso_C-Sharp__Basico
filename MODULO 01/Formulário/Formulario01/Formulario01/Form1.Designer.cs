@@ -65,10 +65,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(942, 491);
+            this.ClientSize = new System.Drawing.Size(942, 553);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
+            this.MaximumSize = new System.Drawing.Size(1000, 800);
+            this.MinimumSize = new System.Drawing.Size(600, 600);
             this.Name = "MinhaAplicacao";
             this.Text = "Minha Aplicação";
             this.Load += new System.EventHandler(this.Form1_Load);
