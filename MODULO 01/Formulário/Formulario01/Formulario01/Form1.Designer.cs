@@ -1,6 +1,6 @@
 ﻿namespace Formulario01
 {
-    partial class Form1
+    partial class MinhaAplicacao
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -61,7 +61,7 @@
             this.listBox1.Size = new System.Drawing.Size(120, 84);
             this.listBox1.TabIndex = 2;
             // 
-            // Form1
+            // MinhaAplicacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -69,8 +69,8 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MinhaAplicacao";
+            this.Text = "Minha Aplicação";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
