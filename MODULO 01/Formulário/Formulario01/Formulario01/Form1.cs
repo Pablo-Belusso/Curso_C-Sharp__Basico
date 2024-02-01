@@ -21,7 +21,7 @@ namespace Formulario01
         {
             LinkLabel.Link enlace = new LinkLabel.Link();
             enlace.LinkData = "https://www.linkedin.com/in/pablobelusso/";
-
+            linkLabel1.Links.Add(enlace);
         }
 
         private void label1_Click(object sender, EventArgs e)
