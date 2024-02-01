@@ -19,6 +19,8 @@ namespace Formulario01
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            LinkLabel.Link enlace = new LinkLabel.Link();
+            enlace.LinkData = "https://www.linkedin.com/in/pablobelusso/";
 
         }
 
@@ -30,6 +32,11 @@ namespace Formulario01
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
