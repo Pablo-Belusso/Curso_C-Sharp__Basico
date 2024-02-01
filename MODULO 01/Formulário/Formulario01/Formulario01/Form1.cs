@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Formulario01
 {
@@ -36,7 +37,7 @@ namespace Formulario01
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Process.Start(e.Link.LinkData as string);
         }
     }
 }
