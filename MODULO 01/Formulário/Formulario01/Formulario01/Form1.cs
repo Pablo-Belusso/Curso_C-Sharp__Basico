@@ -39,5 +39,10 @@ namespace Formulario01
         {
             Process.Start(e.Link.LinkData as string);
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
