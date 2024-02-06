@@ -9,6 +9,10 @@ namespace SiteMVC.Controllers
         
         public IActionResult Index()
         {
+            HomeModel home = new HomeModel();
+
+            home.Nome = "Pablo Belusso";
+            home.Email = "pablobelusso@gmail.com";
             return View();
         }
 
