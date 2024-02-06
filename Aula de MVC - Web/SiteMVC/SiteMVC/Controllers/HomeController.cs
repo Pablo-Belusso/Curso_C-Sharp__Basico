@@ -13,7 +13,7 @@ namespace SiteMVC.Controllers
 
             home.Nome = "Pablo Belusso";
             home.Email = "pablobelusso@gmail.com";
-            return View();
+            return View(home);
         }
 
         public IActionResult Privacy()
