@@ -8,5 +8,7 @@ namespace WebCrudMVCSQL.Models
         { 
 
         }
+
+        public DbSet<Produto> Produto { get; set; }
     }
 }
