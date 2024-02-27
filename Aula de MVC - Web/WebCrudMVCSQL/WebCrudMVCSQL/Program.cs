@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
-    // Conexão com o Banco de Dados
+    // Conexão com o Banco de Dados (SQL Server)
     (options => options.UseSqlServer("Data Source=DESKTOP-EUHGO67\\pablo;Initial Catalog=CRUD_MVC_SQL_CANAL_DEV;Integrated Security=False;User ID=pablo;Password=123;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"));
      
 var app = builder.Build();
