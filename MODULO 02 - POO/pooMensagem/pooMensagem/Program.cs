@@ -10,6 +10,8 @@ namespace pooMensagem
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("E aeeeee! ");
+            Console.ReadKey();
         }
     }
 }
