@@ -8,6 +8,6 @@ namespace pooMensagem
 {
     internal class Mensagem
     {
-        String TextoMensagem;
+        public String TextoMensagem;
     }
 }
