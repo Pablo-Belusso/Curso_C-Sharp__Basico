@@ -10,7 +10,7 @@ namespace pooMensagem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("E aeeeee! ");
+            Mensagem msg1;
             Console.ReadKey();
         }
     }
