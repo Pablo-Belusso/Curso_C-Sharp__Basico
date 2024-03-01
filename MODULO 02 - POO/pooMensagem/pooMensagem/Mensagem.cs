@@ -9,5 +9,11 @@ namespace pooMensagem
     public class Mensagem
     {
         public String TextoMensagem;
+
+        void ExibirMensagem ()
+        {
+            Console.WriteLine(this.TextoMensagem);
+        }
     }
+
 }
