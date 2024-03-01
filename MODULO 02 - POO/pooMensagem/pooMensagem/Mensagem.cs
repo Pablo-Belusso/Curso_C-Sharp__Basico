@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pooMensagem
 {
-    internal class Mensagem
+    public class Mensagem
     {
         public String TextoMensagem;
     }
