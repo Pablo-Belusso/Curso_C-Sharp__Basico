@@ -12,6 +12,7 @@ namespace pooMensagem
         {
             Mensagem msg1;
             msg1 = new Mensagem();
+            msg1.TextoMensagem = "E aeeeee!";
             Console.ReadKey();
         }
     }
