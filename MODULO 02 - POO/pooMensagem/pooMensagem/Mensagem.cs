@@ -10,7 +10,7 @@ namespace pooMensagem
     {
         public String TextoMensagem;
 
-        void ExibirMensagem ()
+        public void ExibirMensagem ()
         {
             Console.WriteLine(this.TextoMensagem);
         }
