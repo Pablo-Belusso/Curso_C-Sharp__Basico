@@ -13,7 +13,8 @@ namespace pooMensagem
             Mensagem msg1;
             msg1 = new Mensagem();
             msg1.TextoMensagem = "E aeeeee!";
-            Console.WriteLine(msg1.TextoMensagem);
+            
+            msg1.ExibirMensagem();
             Console.ReadKey();
         }
     }
