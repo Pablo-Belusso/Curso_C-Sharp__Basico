@@ -17,7 +17,12 @@ namespace pooMensagem
 
         public String getTextoMensagem()
         {
-            return this.TextoMensagem;
+            return this.TextoMensagem; // se quiser não usar o "this" tbm vai funcionar
+        }
+
+        public void setTextoMensagem(String valor)
+        {
+            this.TextoMensagem = valor;
         }
     }
 
