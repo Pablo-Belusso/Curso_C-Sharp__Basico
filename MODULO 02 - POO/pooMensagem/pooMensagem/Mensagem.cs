@@ -14,6 +14,11 @@ namespace pooMensagem
         {
             Console.WriteLine(this.TextoMensagem);
         }
+
+        public String getTextoMensagem()
+        {
+            return this.TextoMensagem;
+        }
     }
 
 }
