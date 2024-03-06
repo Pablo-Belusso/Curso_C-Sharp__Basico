@@ -8,7 +8,7 @@ namespace pooMensagem
 {
     public class Mensagem
     {
-        public String TextoMensagem;
+        private String TextoMensagem;
 
         public void ExibirMensagem ()
         {
