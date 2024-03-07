@@ -12,12 +12,13 @@ namespace pooMensagem
         {
             Mensagem msg1, msg2;
             msg1 = new Mensagem();
-            msg1.setTextoMensagem("Hellouuuu!");            
-            msg1.ExibirMensagem();
+            msg1.setTextoMensagem("Hello!");
+            Console.WriteLine(msg1.getTextoMensagem());
+            //msg1.ExibirMensagem();
 
-            msg2 = new Mensagem();
-            //msg2.TextoMensagem = "Cabulosoooo.";
-            msg2.ExibirMensagem();
+            //msg2 = new Mensagem();
+            ////msg2.TextoMensagem = "Cabulosoooo.";
+            //msg2.ExibirMensagem();
             Console.ReadKey();
         }
     }
