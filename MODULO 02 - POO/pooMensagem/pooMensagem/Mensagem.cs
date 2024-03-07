@@ -22,7 +22,7 @@ namespace pooMensagem
 
         public void setTextoMensagem(String valor)
         {
-            this.TextoMensagem = valor;
+            this.TextoMensagem = valor.ToUpper();
         }
     }
 
