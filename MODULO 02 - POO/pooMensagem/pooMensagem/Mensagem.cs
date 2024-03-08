@@ -24,6 +24,8 @@ namespace pooMensagem
         //{
         //    this.TextoMensagem = valor.ToUpper();
         //}
+
+        private String textoMensagem;
     }
 
 }
