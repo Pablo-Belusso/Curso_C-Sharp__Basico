@@ -26,6 +26,20 @@ namespace pooMensagem
         //}
 
         private String textoMensagem;
+
+        public String TextoMensagem
+        { 
+            get 
+            {  
+                return textoMensagem; 
+            } 
+            set 
+            {
+                textoMensagem = value; 
+            } 
+        
+        }
+
     }
 
 }
