@@ -29,11 +29,12 @@ namespace pooMensagem
 
         public String TextoMensagem
         { 
-            get 
+            get // Pega valor da propriedade
             {  
                 return textoMensagem; 
             } 
-            set 
+
+            set // Definir o valor para uma propriedade
             {
                 textoMensagem = value; 
             } 
