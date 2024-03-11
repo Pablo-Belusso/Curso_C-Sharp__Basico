@@ -10,10 +10,7 @@ namespace pooMensagem
     {
         //private String TextoMensagem;
 
-        //public void ExibirMensagem ()
-        //{
-        //    Console.WriteLine(this.TextoMensagem);
-        //}
+        
 
         //public String getTextoMensagem()
         //{
@@ -39,6 +36,11 @@ namespace pooMensagem
                 textoMensagem = value.ToUpper(); 
             } 
         
+        }
+
+        public void ExibirMensagem()
+        {
+            Console.WriteLine(this.TextoMensagem);
         }
 
     }
