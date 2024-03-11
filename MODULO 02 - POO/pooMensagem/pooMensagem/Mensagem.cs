@@ -36,7 +36,7 @@ namespace pooMensagem
 
             set // Definir o valor para uma propriedade
             {
-                textoMensagem = value; 
+                textoMensagem = value.ToUpper(); 
             } 
         
         }
