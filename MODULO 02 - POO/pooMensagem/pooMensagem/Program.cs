@@ -12,8 +12,8 @@ namespace pooMensagem
         {
             Mensagem msg1, msg2;
             msg1 = new Mensagem();
-            msg1.setTextoMensagem("Hello!");
-            Console.WriteLine(msg1.getTextoMensagem());
+            msg1.TextoMensagem = "E aeee";
+            //Console.WriteLine(msg1.getTextoMensagem());
             //msg1.ExibirMensagem();
 
             //msg2 = new Mensagem();
