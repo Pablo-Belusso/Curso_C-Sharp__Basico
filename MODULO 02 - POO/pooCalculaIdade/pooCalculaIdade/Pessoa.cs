@@ -9,12 +9,12 @@ namespace pooCalculaIdade
     public class Pessoa
     {
 		// Digite "propfull" para criar a estrutura abaixo:
-		private int myVar;
+		private int anoNascimento;
 
-		public int MyProperty
+		public int AnoNascimento	
 		{
-			get { return myVar; }
-			set { myVar = value; }
+			get { return anoNascimento; }
+			set { anoNascimento = value; }
 		}
 
 	}
