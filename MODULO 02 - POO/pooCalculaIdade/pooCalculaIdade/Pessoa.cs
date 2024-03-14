@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pooCalculaIdade
 {
-    internal class Pessoa
+    public class Pessoa
     {
     }
 }
