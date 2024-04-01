@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Curso_C_Sharp_Octa.Fundamentos
 {
-    internal class PrimeiroPrograma
+    class PrimeiroPrograma
     {
+        static void Main ()
+        {
+            System.Console.WriteLine("Primeiro");
+            Console.WriteLine("Programa");
+            Console.WriteLine("Terminou");
+        }
     }
 }
