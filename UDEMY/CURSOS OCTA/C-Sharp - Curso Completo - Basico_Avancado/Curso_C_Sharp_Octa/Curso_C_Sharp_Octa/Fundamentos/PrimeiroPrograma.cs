@@ -12,7 +12,7 @@ namespace Curso_C_Sharp_Octa.Fundamentos
         {
             Console.WriteLine("Primeiro");
             Console.WriteLine("Programa");
-            Console.WriteLine("Terminou");
+            Console.WriteLine("Terminou!");
             Console.ReadLine();
         }
         
