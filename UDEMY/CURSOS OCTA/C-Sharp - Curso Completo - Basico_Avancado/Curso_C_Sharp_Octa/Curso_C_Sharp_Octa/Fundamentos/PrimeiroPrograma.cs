@@ -8,7 +8,7 @@ namespace Curso_C_Sharp_Octa.Fundamentos
 {
     class PrimeiroPrograma
     {
-        static void Main()
+        public static void Executar()
         {
             Console.WriteLine("Primeiro");
             Console.WriteLine("Programa");
