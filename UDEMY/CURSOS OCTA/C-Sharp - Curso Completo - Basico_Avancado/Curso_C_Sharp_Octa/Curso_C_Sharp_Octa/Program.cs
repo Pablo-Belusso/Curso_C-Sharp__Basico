@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Curso_C_Sharp_Octa
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
         }
     }
