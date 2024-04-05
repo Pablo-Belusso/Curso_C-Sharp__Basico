@@ -21,6 +21,10 @@ namespace Curso_C_Sharp_Octa.Fundamentos
          * lsjfs
          */
         
+        // Atalho de comentários: Ctrl + K + C
+            //dlfsldfjas
+            //hfg
+            //dfd
 
     }
 }
