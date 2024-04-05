@@ -9,11 +9,18 @@ namespace Curso_C_Sharp_Octa.Fundamentos
     class Comentários
     {
         // Comentário de um linha
-        
-        
-        /// Comentário
+
+
+        /// <summary>  Comentário XML comments
         /// de
         /// Várias linhas
+        /// </summary>
         
+        /* e aeeeeee
+         * ljdjfkls
+         * lsjfs
+         */
+        
+
     }
 }
