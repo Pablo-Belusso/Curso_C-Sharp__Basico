@@ -8,5 +8,9 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 {
     class Membros
     {
+        public static void Executar()
+        {
+
+        }
     }
 }
