@@ -10,8 +10,13 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
     {
         public static void Executar()
         {
-            Pessoa Sicrano = new Pessoa();  // Cria um novo objeto do tipo Pessoa
          // Classe             // Construtor
+            Pessoa Sicrano = new Pessoa();  // Cria um novo objeto do tipo Pessoa
+            Sicrano.Nome = "Pablo";
+            Sicrano.Idade = 40;
+
+            Console.WriteLine($"{Sicrano.Nome} tem {Sicrano.Idade} anos.");
+            Console.ReadLine();
         }
     }
 }
