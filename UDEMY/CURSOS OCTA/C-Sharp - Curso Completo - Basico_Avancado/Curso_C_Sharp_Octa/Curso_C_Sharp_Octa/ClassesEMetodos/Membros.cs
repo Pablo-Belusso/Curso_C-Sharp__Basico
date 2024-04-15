@@ -10,6 +10,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
     {
         public static void Executar()
         {
+            Pessoa Sicrano = new Pessoa();
 
         }
     }
