@@ -10,8 +10,8 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
     {
         public static void Executar()
         {
-            Pessoa Sicrano = new Pessoa();
-
+            Pessoa Sicrano = new Pessoa();  // Cria um novo objeto do tipo Pessoa
+         // Classe             // Construtor
         }
     }
 }
