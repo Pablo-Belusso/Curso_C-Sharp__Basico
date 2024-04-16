@@ -10,8 +10,10 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
     {
         // Atributos
         public string Nome;   
-        public int Idade;  
-        
-        public string Apresentar;   
+        public int Idade;
+
+        public string Apresentar() {
+            return string
+        }
     }
 }
