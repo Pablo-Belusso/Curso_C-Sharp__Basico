@@ -15,7 +15,10 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
             Sicrano.Nome = "Pablo";
             Sicrano.Idade = 40;
 
-            Console.WriteLine($"{Sicrano.Nome} tem {Sicrano.Idade} anos.");
+            //Console.WriteLine($"{Sicrano.Nome} tem {Sicrano.Idade} anos.");
+
+            Sicrano.ApresentarNoConsole();
+
             Console.ReadLine();
         }
     }
