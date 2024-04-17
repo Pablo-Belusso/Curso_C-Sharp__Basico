@@ -15,5 +15,10 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
         public string Apresentar() {
             return string.Format($"Ola! Me Chamo {Nome} e tenho idade {Idade} anos.");
         }
+
+        public void ApresentarNoConsole()
+        {
+            Console.WriteLine();
+        }
     }
 }
