@@ -18,7 +18,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 
         public void ApresentarNoConsole()
         {
-            Console.WriteLine();
+            Console.WriteLine(Apresentar());
         }
     }
 }
