@@ -21,6 +21,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 
             var fulano = new Pessoa();
             fulano.Nome = "Beto";
+            fulano.Idade = 33;
 
             Console.ReadLine();
         }
