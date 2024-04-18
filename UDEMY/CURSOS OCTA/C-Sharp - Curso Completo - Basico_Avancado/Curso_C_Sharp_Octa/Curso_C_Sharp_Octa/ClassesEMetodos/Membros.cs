@@ -19,6 +19,9 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 
             Sicrano.ApresentarNoConsole();
 
+            var fulano = new Pessoa();
+            fulano.Nome = "Beto";
+
             Console.ReadLine();
         }
     }
