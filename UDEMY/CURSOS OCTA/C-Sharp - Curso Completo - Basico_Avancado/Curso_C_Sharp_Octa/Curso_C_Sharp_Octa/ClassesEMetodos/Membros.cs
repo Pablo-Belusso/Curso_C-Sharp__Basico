@@ -25,6 +25,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 
             var apresentacaoDoFulano = fulano.Apresentar();
             Console.WriteLine(apresentacaoDoFulano.Length);
+            Console.WriteLine(apresentacaoDoFulano);
 
             Console.ReadLine();
         }
