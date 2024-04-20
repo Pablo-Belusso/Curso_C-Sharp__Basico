@@ -23,7 +23,8 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
             fulano.Nome = "Beto";
             fulano.Idade = 33;
 
-            var apresentacaodoFulano = fulano.Apresentar();
+            var apresentacaoDoFulano = fulano.Apresentar();
+            Console.WriteLine(apresentacaoDoFulano.Length);
 
             Console.ReadLine();
         }
