@@ -18,6 +18,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
             //Console.WriteLine($"{Sicrano.Nome} tem {Sicrano.Idade} anos.");
 
             Sicrano.ApresentarNoConsole();
+            Sicrano.Zerar();
 
             var fulano = new Pessoa();
             fulano.Nome = "Beto";
