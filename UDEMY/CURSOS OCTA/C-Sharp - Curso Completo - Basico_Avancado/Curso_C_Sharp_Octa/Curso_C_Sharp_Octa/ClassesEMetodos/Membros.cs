@@ -19,6 +19,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 
             Sicrano.ApresentarNoConsole();
             Sicrano.Zerar();
+            Sicrano.ApresentarNoConsole();
 
             var fulano = new Pessoa();
             fulano.Nome = "Beto";
