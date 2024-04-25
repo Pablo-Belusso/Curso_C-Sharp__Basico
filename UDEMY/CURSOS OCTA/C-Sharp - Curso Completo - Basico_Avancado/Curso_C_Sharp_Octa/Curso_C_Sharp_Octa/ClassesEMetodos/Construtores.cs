@@ -21,6 +21,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
             carro1.Fabricante = "BMW";
             carro1.Modelo = "325i";
             carro1.Ano = 2017;
+            Console.WriteLine($"{carro1.Fabricante}{carro1.Modelo}");
 
         }
     }
