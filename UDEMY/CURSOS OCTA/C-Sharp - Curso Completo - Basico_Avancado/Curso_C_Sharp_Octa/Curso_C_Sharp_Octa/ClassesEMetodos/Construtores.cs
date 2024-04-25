@@ -17,6 +17,8 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
     {
         public static void Executar()
         {
+            var carro1 = new Carro();
+            carro1.Fabricante = "BMW";
 
         }
     }
