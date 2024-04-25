@@ -19,6 +19,8 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
         {
             var carro1 = new Carro();
             carro1.Fabricante = "BMW";
+            carro1.Modelo = "325i";
+            carro1.Ano = 2017;
 
         }
     }
