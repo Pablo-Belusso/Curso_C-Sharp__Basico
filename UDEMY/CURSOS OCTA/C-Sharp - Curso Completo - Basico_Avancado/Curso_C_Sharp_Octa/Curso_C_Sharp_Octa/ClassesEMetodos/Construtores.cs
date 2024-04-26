@@ -32,7 +32,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
             Console.WriteLine($"{carro1.Fabricante} {carro1.Modelo} {carro1.Ano}");
 
             var carro2 = new Carro("Ka", "Ford", 2018);
-
+            Console.WriteLine($"Carro: {carro2.Fabricante}");
 
             Console.ReadLine();
         }
