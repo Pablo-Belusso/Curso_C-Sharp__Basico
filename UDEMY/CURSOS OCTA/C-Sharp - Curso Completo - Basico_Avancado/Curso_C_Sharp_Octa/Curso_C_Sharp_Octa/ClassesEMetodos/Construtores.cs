@@ -9,9 +9,17 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
 
     class Carro
     {
+        // Atributos
         public string Modelo;
         public string Fabricante;
         public int Ano;
+
+        public Carro(string modelo, string fabricante, int ano)
+        {
+            Modelo = modelo;
+            Fabricante = fabricante;
+            Ano = ano;
+        }
     }
     class Construtores
     {
