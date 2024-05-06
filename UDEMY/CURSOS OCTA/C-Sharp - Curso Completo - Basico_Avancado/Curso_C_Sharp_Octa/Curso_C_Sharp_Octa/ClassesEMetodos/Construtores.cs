@@ -45,6 +45,8 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
                 Ano = 2018
             };
 
+            Console.WriteLine($"Carro: {carro3.Fabricante} {carro3.Modelo} {carro3.Ano}");
+
             Console.ReadLine();
         }
     }
