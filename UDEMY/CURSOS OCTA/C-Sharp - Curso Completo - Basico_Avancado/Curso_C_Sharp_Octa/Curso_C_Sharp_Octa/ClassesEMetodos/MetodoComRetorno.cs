@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Curso_C_Sharp_Octa.ClassesEMetodos
 {
-    internal class MetodoComRetorno
+    class MetodoComRetorno
     {
+        public static void Executar() {
+        
+        }
     }
 }
