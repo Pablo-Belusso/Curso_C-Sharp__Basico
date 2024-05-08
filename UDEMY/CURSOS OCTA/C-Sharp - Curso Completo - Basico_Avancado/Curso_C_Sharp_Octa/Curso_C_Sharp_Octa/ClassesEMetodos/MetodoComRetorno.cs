@@ -10,7 +10,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
     {
         public int Somar(int a, int b)
         {
-
+            return a + b;
         }
     }
     class MetodoComRetorno
