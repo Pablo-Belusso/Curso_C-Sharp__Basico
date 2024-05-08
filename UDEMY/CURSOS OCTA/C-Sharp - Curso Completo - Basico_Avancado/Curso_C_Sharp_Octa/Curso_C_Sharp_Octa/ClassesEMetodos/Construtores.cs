@@ -14,6 +14,7 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
         public string Fabricante;
         public int Ano;
 
+        // Construtor
         public Carro(string modelo, string fabricante, int ano)
         {
             Modelo = modelo;
@@ -21,24 +22,28 @@ namespace Curso_C_Sharp_Octa.ClassesEMetodos
             Ano = ano;
         }
 
+        // Construtor
         public Carro() {
         
         }
     }
     class Construtores
     {
+        // Método
         public static void Executar()
         {
-            var carro1 = new Carro();
+
+            var carro1 = new Carro(); // Instância
             carro1.Fabricante = "BMW";
             carro1.Modelo = "325i";
             carro1.Ano = 2017;
             Console.WriteLine($"{carro1.Fabricante} {carro1.Modelo} {carro1.Ano}");
 
-            var carro2 = new Carro("Ka", "Ford", 2018);
+            var carro2 = new Carro("Ka", "Ford", 2018); // Instância
+
             Console.WriteLine($"Carro: {carro2.Fabricante} {carro2.Modelo} {carro2.Ano}");
 
-            var carro3 = new Carro()
+            var carro3 = new Carro() // Instância
             {
                 Fabricante = "Fiat",
                 Modelo = "Uno",
